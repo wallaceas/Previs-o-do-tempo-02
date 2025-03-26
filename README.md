@@ -1,61 +1,76 @@
-Previsão do Tempo
-Este é um aplicativo React que consulta a API do OpenWeatherMap para fornecer informações sobre o clima atual e a previsão para os próximos cinco dias de uma cidade especificada pelo usuário.
+# Previsão do Tempo
 
-📌 Funcionalidades
-Permite que o usuário insira o nome de uma cidade e obtenha a previsão do tempo.
+Este é um aplicativo simples de previsão do tempo desenvolvido em React.js. Ele consome a API do OpenWeatherMap para obter informações meteorológicas atuais e previsões para os próximos 5 dias.
 
-Exibe informações meteorológicas atuais da cidade pesquisada.
+## Tecnologias Utilizadas
 
-Exibe a previsão do tempo para os próximos cinco dias.
+- React.js
+- Axios
+- OpenWeatherMap API
 
-🛠 Tecnologias Utilizadas
-React.js
+## Funcionalidades
 
-Axios (para requisições HTTP)
+- Busca previsão do tempo para uma cidade especificada pelo usuário.
+- Exibe informações meteorológicas atuais.
+- Exibe previsão do tempo para os próximos 5 dias.
 
-OpenWeatherMap API (para obtenção dos dados meteorológicos)
+## Instalação e Execução
 
-📂 Estrutura do Código
-App.js: Componente principal que gerencia a busca e exibição dos dados.
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd seu-repositorio
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Inicie o projeto:
+   ```sh
+   npm start
+   ```
 
-WeatherInformations.jsx: Componente responsável por exibir as informações meteorológicas atuais.
+## Uso
 
-WeatherInformations5Days.jsx: Componente responsável por exibir a previsão do tempo para os próximos cinco dias.
+1. Digite o nome de uma cidade no campo de entrada.
+2. Clique no botão "Buscar".
+3. Veja as informações meteorológicas atuais e a previsão para os próximos 5 dias.
 
-🚀 Como Executar
-Clone o repositório
+## Configuração da API
 
-sh
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-Instale as dependências
+Este projeto usa a API do OpenWeatherMap. Para utilizá-lo, você precisa de uma chave de API:
 
-sh
-Copiar
-Editar
-npm install
-Execute o projeto
+1. Crie uma conta no [OpenWeatherMap](https://openweathermap.org/).
+2. Gere uma chave de API.
+3. Substitua a chave dentro do arquivo `App.js` na constante `key`.
 
-sh
-Copiar
-Editar
-npm start
-🔑 Configuração da API
-O código usa uma chave de API do OpenWeatherMap. Para obter a sua própria chave:
+## Estrutura do Projeto
 
-Crie uma conta em OpenWeatherMap.
+```
+/
+├── src/
+│   ├── components/
+│   │   ├── WeatherInformations/
+│   │   ├── WeatherInformations5Days/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+├── package.json
+└── README.md
+```
 
-Gere uma API Key e substitua no código a variável key:
+## Autor
 
-js
-Copiar
-Editar
-const key = "SUA_CHAVE_AQUI";
-📌 Observação
-Certifique-se de que sua chave de API está válida.
+- Nome: [Seu Nome]
+- GitHub: [Seu GitHub]
 
-Caso o número de requisições ultrapasse o limite gratuito da API, pode ser necessário aguardar ou contratar um plano pago.
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+
 
 ![previsão-do-tempo-02](https://github.com/user-attachments/assets/1814a18c-5753-4358-88f0-1acee25cf4b1)
