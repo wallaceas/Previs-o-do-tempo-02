@@ -65,7 +65,8 @@ Este projeto usa a API do OpenWeatherMap. Para utilizá-lo, você precisa de uma
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
-
+```
+## Imagem Ilustrativa
+```
 
 ![previsão-do-tempo-02](https://github.com/user-attachments/assets/1814a18c-5753-4358-88f0-1acee25cf4b1)
