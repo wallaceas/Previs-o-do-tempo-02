@@ -62,10 +62,6 @@ Este projeto usa a API do OpenWeatherMap. Para utilizá-lo, você precisa de uma
 └── README.md
 ```
 
-## Autor
-
-- Nome: [Seu Nome]
-- GitHub: [Seu GitHub]
 
 ## Licença
 
@@ -74,6 +70,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ## Imagem Ilustrativa
 
 ![previsão-do-tempo-02](https://github.com/user-attachments/assets/8ce2b548-e181-4bf6-9887-b89b1a448958)
+
 
 
 # React + Vite
