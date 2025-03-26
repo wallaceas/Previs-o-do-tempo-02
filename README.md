@@ -62,11 +62,6 @@ Este projeto usa a API do OpenWeatherMap. Para utilizá-lo, você precisa de uma
 └── README.md
 ```
 
-## Autor
-
-- Nome: [Seu Nome]
-- GitHub: [Seu GitHub]
-
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
